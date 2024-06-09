@@ -1,0 +1,137 @@
+body {
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+ul li {
+  list-style: none;
+  color: #000;
+}
+
+/* header css */
+
+.navbar-header ul {
+}
+.navbar-header ul li {
+  padding: 5px 20px;
+  font-size: 20px;
+  color: #f44335;
+}
+
+.intrLeft h1 {
+  font-size: 64px;
+  width: 90%;
+  font-weight: 800;
+}
+.intrLeft p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.border-bttom {
+  border-bottom: 3px solid #000;
+}
+
+.box h1 {
+  font-size: 63px;
+}
+.box p {
+  width: 80%;
+}
+.hoeTowork {
+  align-items: center;
+  position: relative;
+  & h1 {
+    font-size: 64px;
+  }
+}
+
+.hoeTowork::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #9a9ca5;
+  height: 28%;
+  width: 2px;
+}
+.hoeTowork::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 49.1%;
+  background-color: #f44335;
+  outline: 4px solid #f4423538;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.RightSite img {
+  width: 80%;
+}
+.beforeAfterSec {
+  position: relative;
+}
+
+.beforeAfterSec::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #9a9ca5;
+  height: 100%;
+  width: 2px;
+}
+
+.custombefore {
+  position: relative;
+}
+.custombefore::before {
+  content: "";
+  position: absolute;
+  top: 28%;
+  left: 49.1%;
+  background-color: #f44335;
+  outline: 4px solid #f4423538;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.customImg {
+  position: absolute;
+  top: -9%;
+  left: -16%;
+}
+.imgscal {
+  transform: scale(1.3);
+}
+
+.beforeAfterSecLast::after {
+  top: 0;
+  height: 30%;
+}
+.positionLeft {
+  top: 0;
+  left: -88px;
+}
+
+.Testimonial {
+  background-image: url(./images/Decoration.png);
+  background-repeat: no-repeat;
+  background-position-x: 106%;
+  background-position-y: 181%;
+}
+.footerItem ul li {
+  margin-bottom: 10px;
+}
+
+.testimonialContent {
+  background-color: #fff !important;
+}

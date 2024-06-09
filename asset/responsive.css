@@ -1,0 +1,69 @@
+@media screen and (max-width: 899px) {
+  .justify-content-between {
+    flex-direction: column !important;
+  }
+  .navbar-header ul li {
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+  .intrLeft h1 {
+    font-size: 30px;
+    width: 100%;
+    font-weight: 800;
+  }
+  .hoeTowork {
+    text-align: center;
+    & h1 {
+      font-size: 28px;
+    }
+    & img {
+      width: 50%;
+    }
+  }
+
+  .beforeAfterSec::after,
+  .custombefore::before,
+  .beforeAfterSecLast::after,
+  .hoeTowork::after,
+  .hoeTowork::before {
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .leftSite,
+  .RightSite {
+    text-align: center !important;
+  }
+  .RightSite {
+    width: 80% !important;
+  }
+  .box1 {
+    flex-direction: row !important;
+    gap: 20px;
+    text-align: center;
+  }
+  .box {
+    & h1 {
+      font-size: 30px;
+    }
+    & p {
+      width: 100%;
+      font-size: 12px;
+    }
+  }
+  .customImg {
+    display: none;
+  }
+  .positionLeft {
+    position: static !important;
+  }
+  .Testimonial {
+    text-align: center !important;
+    & .text-end {
+      text-align: center !important;
+    }
+  }
+  .Hbutton {
+    text-align: end;
+  }
+}
