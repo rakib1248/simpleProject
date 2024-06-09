@@ -1,3 +1,12 @@
+@media screen and (max-width: 1199px) {
+  .custombefore::before {
+    left: 48.8%;
+  }
+  .hoeTowork::before {
+    left: 48.8%;
+  }
+}
+
 @media screen and (max-width: 899px) {
   .justify-content-between {
     flex-direction: column !important;
